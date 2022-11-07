@@ -1,0 +1,81 @@
+body{
+    background-image:url('../img/seamless_1.jpg');
+    color: black;
+    font-family:"Helvetica Neue", "Helvetica";
+    font-weight: bold;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+button{
+    background-color:#1c0801;
+    color: #edbd37  ;
+    width: 150px;
+    padding: 20px;
+    font-size: 2em;
+    border: none;
+    border-radius: 30px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 #d3c1ba;
+}
+
+main{
+background: rgba(88, 87, 87, 0.801);
+box-shadow: 0 8px 32px 0 rgba(141, 155, 81, 0.42);
+background-color: rgba(36, 36, 36, 0.925);
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1{
+    font-size: 3.5em;
+    font-weight: bolder;
+    padding: 10px;
+    color: #d3c1ba;
+    background: rgba(88, 87, 87, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(141, 155, 81, 0.42);
+    background-color: rgba(36, 36, 36, 0.925);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+}
+
+body>img{
+    max-width: 10em;
+    display: flex;
+    float:left;
+    padding-top: 0.3em;
+    padding-left: 0.3em;
+}
+
+li{
+    list-style: none;
+    text-align: left;
+    color: #1c0801;
+    background-color: #d3c1ba;
+    padding:0.1em;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    font-weight: bold;
+    color: #edbd37;
+    padding: 1em;
+    background-color: #1c0801;
+}
+
+footer{
+    background-color:rgba(36, 36, 36, 0.925);
+    box-shadow: 0 8px 32px 0 rgba(141, 155, 81, 0.42);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: #edbd37;
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:1em;
+}
+
+
